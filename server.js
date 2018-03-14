@@ -2,6 +2,7 @@
 const express = require('express');
 const app = express();
 app.use(compression());
+console.log(compression())
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist'));
 
