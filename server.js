@@ -1,3 +1,4 @@
+var compression = require('compression')
 //Install express server
 const express = require('express');
 const app = express();
